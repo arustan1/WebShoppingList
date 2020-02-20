@@ -18,6 +18,8 @@
 </c:forEach>
 </table>
 <form method="post" action="navigationServlet">
+	<!--This form has to be wrapped around the table above.  No data is being passed over. --> 
+	<!--Why would you have an empty table tag?? -->
 <table>
 ...
 </table>
