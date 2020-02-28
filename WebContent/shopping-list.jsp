@@ -8,6 +8,7 @@
 <title>Item List</title>
 </head>
 <body>
+<form method="post" action="navigationServlet">
 <table>
 <c:forEach items="${requestScope.allItems}" var="currentitem">
 <tr>
@@ -17,7 +18,6 @@
 </tr>
 </c:forEach>
 </table>
-<form method="post" action="navigationServlet">
 <table>
 ...
 </table>
